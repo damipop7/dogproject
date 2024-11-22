@@ -35,7 +35,6 @@ public class DogController {
 	public String defaultRoute () {
 		return "redirect:/dogHome";
 	}
-
 	
 	@RequestMapping("dogHome")
 	public ModelAndView home() {
